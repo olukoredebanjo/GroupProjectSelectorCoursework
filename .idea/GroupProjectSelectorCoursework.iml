@@ -14,5 +14,8 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="ga" level="application" />
+    <orderEntry type="library" name="ca-pub-3863319475191168" level="application" />
+    <orderEntry type="library" name="adsbygoogle" level="application" />
   </component>
 </module>
