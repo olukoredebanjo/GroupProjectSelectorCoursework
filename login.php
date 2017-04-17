@@ -11,7 +11,7 @@ else
     $username=$_POST["username"];
     $password=$_POST["password"];
 
-    $sql = "SELECT uname FROM users WHERE username='$username' and pss='$password'; ";
+    $sql = "SELECT username FROM users WHERE username='$username' and password='$password'; ";
     $result = mysqli_query($db,$sql);
 
     if( mysqli_num_rows($result) == 1)    // If Successful Login
