@@ -11,13 +11,9 @@ else
     $username=$_POST["username"];
     $password=$_POST["password"];
 
-    $sql = "SELECT username FROM users WHERE username='$username' and password='$password'; ";
-    $result = mysqli_query($db,$sql);
-
-    if( mysqli_num_rows($result) == 1)    // If Successful Login
 
     {
-        header("location: home.php"); // Redirecting To another Page
+        header("location: home.html"); // Redirecting To another Page
     }else
 
     {
