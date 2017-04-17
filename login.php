@@ -6,12 +6,12 @@ if($username=($_POST["empty"]) ||$password=($_POST["empty"]))
 
 {
     echo "Both fields are required. ";
-}else
-{
+}
+else
     $username=$_POST["username"];
     $password=$_POST["password"];
 
-    $sql = "SELECT uid FROM users WHERE username='$username' and password='$password'; ";
+    $sql = "SELECT uname FROM users WHERE username='$username' and pss='$password'; ";
     $result = mysqli_query($db,$sql);
 
     if( mysqli_num_rows($result) == 1)    // If Successful Login
@@ -24,7 +24,7 @@ if($username=($_POST["empty"]) ||$password=($_POST["empty"]))
         echo "Incorrect username or password. ";
     }
 
-}
+
 
 $result->close();
 $db->close();
