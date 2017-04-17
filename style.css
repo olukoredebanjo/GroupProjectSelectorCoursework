@@ -25,3 +25,8 @@ span.psw {
 .cancelbtn {
     width: 100%;
 }
+form {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
