@@ -9,8 +9,8 @@ if(empty($_POST[ "username"]) || empty($_POST[ "password"]))
 }else
 {
 
-    $username=$_POST['username'];
-    $password=$_POST['password'];
+    $username=$_POST['username1'];
+    $password=$_POST['password1'];
 
     $sql = "SELECT uid FROM users WHERE username='$username' and password='$password'; ";
     $result = mysqli_query($db,$sql);
