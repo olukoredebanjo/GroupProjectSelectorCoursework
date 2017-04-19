@@ -1,10 +1,8 @@
 <?php
-$sever = "localhost";
-$username ="root";
-$password ="";
-$db ="groupproject";
 
-$conn = mysqli_connect($sever, $username, $password, $db);
+include "dbconnect.php";
+
+$conn = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword, $connectstr_dbname);
 if(!$conn){
 	die("Connection failed: ". mysqli_connect_error());
 }
