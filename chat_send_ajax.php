@@ -1,22 +1,20 @@
 <?php
 
-     require_once('db.php');
+     require_once('dbconfig.php');
 
-     db_connect();
-
+   
      $msg = $_GET["msg"];
      $dt = date("Y-m-d H:i:s");
      $user = $_GET["name"];
 
-     $sql="INSERT INTO chat(USERNAME,CHATDATE,MSG) " .
-          "values(" . quote($user) . "," . quote($dt) . "," . quote($msg) . ");";
+     $sql="INSERT INTO `chat` (`ID`, `USERNAME`, `CHATDATE`, `MSG`) VALUES (NULL, '$user', '$dt', ' $msg');";
 
           echo $sql;
 
-     $result = mysql_query($sql);
+		$result = mysqli_query($conn, $sql);
      if(!$result)
      {
-        throw new Exception('Query failed: ' . mysql_error());
+        throw new Exception('Query failed: ' . mysqli_error());
         exit();
      }
 
