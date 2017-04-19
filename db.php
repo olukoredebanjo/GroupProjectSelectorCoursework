@@ -1,5 +1,5 @@
 <?php
-include "dbconnect.php";
+include "dbconfig.php";
 
 function db_connect()
 {
