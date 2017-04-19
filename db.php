@@ -1,12 +1,12 @@
 <?php
-
+include "dbconnect.php";
 
 function db_connect()
 {
 
   date_default_timezone_set("Asia/Calcutta");
 
-  $link = mysql_connect("localhost", "root", "")
+  $link = mysql_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbname)
             or die('Could not connect: ' . mysql_error());
   mysql_select_db("groupproject") or die('Could not select database');
   return true;
