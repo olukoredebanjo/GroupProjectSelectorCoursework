@@ -8,7 +8,7 @@ function db_connect()
 
   $link = mysql_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbname)
             or die('Could not connect: ' . mysql_error());
-  mysql_select_db("groupproject") or die('Could not select database');
+  mysql_select_db($connectstr_dbname) or die('Could not select database');
   return true;
 }
 
