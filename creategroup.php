@@ -25,7 +25,7 @@ if($group == 2){
 			$sql_insert = "INSERT INTO `group_2` (`id`, `name`) VALUES (NULL, '$first_name'), (NULL, '$first_name2')";
 			$run_query= mysqli_query($conn, $sql_insert);
 			
-			header("location: index.php");
+			header("location: home.php");
 			
 		 } else { 
 					
@@ -59,7 +59,7 @@ if($group == 2){
 			
 			$sql_insert = "INSERT INTO `group_2` (`id`, `name`) VALUES (NULL, '$first_name'), (NULL, '$first_name2')";
 			$run_query= mysqli_query($conn, $sql_insert);
-			header("location: index.php");
+			header("location: home.php");
 			
 		 } else { 
 					
@@ -93,7 +93,7 @@ if($group == 3){
 			
 			$sql_insert = "INSERT INTO `group_3` (`id`, `name`) VALUES (NULL, '$first_name'), (NULL, '$first_name2')";
 			$run_query= mysqli_query($conn, $sql_insert);
-			header("location: index.php");
+			header("location: home.php");
 			
 		 } else { 
 					
@@ -127,7 +127,7 @@ if($group == 4){
 			
 			$sql_insert = "INSERT INTO `group_4` (`id`, `name`) VALUES (NULL, '$first_name'), (NULL, '$first_name2')";
 			$run_query= mysqli_query($conn, $sql_insert);
-			header("location: index.php");
+			header("location: home.php");
 			
 		 } else { 
 					
@@ -161,7 +161,7 @@ if($group == 5){
 			
 			$sql_insert = "INSERT INTO `group_5` (`id`, `name`) VALUES (NULL, '$first_name'), (NULL, '$first_name2')";
 			$run_query= mysqli_query($conn, $sql_insert);
-			header("location: index.php");
+			header("location: home.php");
 			
 		 } else { 
 					
