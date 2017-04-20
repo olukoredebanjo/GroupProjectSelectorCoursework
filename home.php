@@ -10,7 +10,6 @@ include "dbconfig.php";
 <head>
     <meta charset="UTF-8">
     <title>group project team selector</title>
-	<link type="text/css" href="style.css" rel="stylesheet">
 
 
 </head>
