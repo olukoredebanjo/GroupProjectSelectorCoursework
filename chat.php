@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
     <title>Group chat</title>
-	<link type="text/css" href="style.css" rel="stylesheet">
+	
    
 <script type="text/javascript">
 
