@@ -9,7 +9,8 @@ include "dbconfig.php";
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>groupprojectteamselector</title>
+    <title>group project team selector</title>
+	<link type="text/css" href="style.css" rel="stylesheet">
 
 
 </head>
