@@ -1,6 +1,5 @@
 <?php
-body {
-    background-color: lightblue;
+
 }
 include "dbconfig.php";
 $group = $_POST["number_teams"];
