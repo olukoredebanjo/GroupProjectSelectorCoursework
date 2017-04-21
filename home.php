@@ -24,7 +24,7 @@ include "dbconfig.php";
     <form action="creategroup.php" method="post" id="form">
         <div class="name-container">
             <h2><label for="names">Add names (one per line)</label><h2>
-            <textarea name="names" id="names" cols="30" rows="10" placeholder="Add Names">Tom
+            <textarea name="names" style="background-color:grey;" id="names" cols="30" rows="10" placeholder="Add Names">Tom
 Bob
 Johnny
 Sam
