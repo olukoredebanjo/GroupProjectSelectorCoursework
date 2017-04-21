@@ -17,9 +17,9 @@ include "dbconfig.php";
 <div id="main" class="container">
 
 
-    <h3 style="color:blue;">Group project team selector</h3>
+    <h1 style="color:blue;">Group project team selector</h1>
 
-    <p style="color:red;">Enter a list of names, pick the number of teams you want, and select create group to assign people randomly to teams!</p>
+   <h2> <p style="color:black;">Enter a list of names, pick the number of teams you want, and select create group to assign people randomly to teams!</p></h2>
 
     <form action="creategroup.php" method="post" id="form">
         <div class="name-container">
