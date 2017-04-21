@@ -23,7 +23,7 @@ include "dbconfig.php";
 
     <form action="creategroup.php" method="post" id="form">
         <div class="name-container">
-            <label for="names">Add names (one per line)</label>
+            <h2><label for="names">Add names (one per line)</label><h2>
             <textarea name="names" id="names" cols="30" rows="10" placeholder="Add Names">Tom
 Bob
 Johnny
@@ -37,7 +37,7 @@ Bello</textarea>
         </div>
 
         <div class="options">
-            <label for="number_teams">Number of groups</label>
+            <h2><label for="number_teams">Number of groups</label><h2>
             <select name="number_teams" id="number_teams">
                 <option value="2">2</option>
                 <option value="3">3</option>
