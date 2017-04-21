@@ -13,7 +13,7 @@ include "dbconfig.php";
 
 
 </head>
-<body>
+<body style="background-image:url('backdrnd.jpg')">
 <div id="main" class="container">
 
 
