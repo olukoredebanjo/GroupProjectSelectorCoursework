@@ -94,7 +94,7 @@ function set_chat_msg()
 </script>
 
 </head>
-<body>
+<body style="background-image:url('rgu.jpg')">
     &nbsp;
 	<img src="icons-390.jpg" width="10" height="10"/>
     <div style="border-right: lightslategray thin solid; border-top: lightslategray thin solid;
